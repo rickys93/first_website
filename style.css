@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcccba;
+    align-items: center;
+    width: 100%;
+
+}
+.main-nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+
+.buttons {
+    margin: 15px;
+    justify-content: right;
+}
+
+.nav-left {
+    margin-left: 20px;
+}
+
+
+.main-nav-bar a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.button-sign-up { 
+    background-color: #fe6f3b;
+    color: white;
+}
+.button-log-in { 
+    background-color: #ffffff;
+    color: #fe6f3b;
+}
+
+/* .main-nav-bar li {
+    padding: 5px 10px;
+} */
+
+.main-nav-bar li a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.search-form input{
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    /* padding: 10px; */
+}
+
+.grid-container-1 { 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.album-cover {
+    height: 100px;
+    border: 1.5px;
+
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ff6127;
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid rgb(255, 255, 255);
+    position:relative;
+    top: 10px;
+    left: 15px;
+  }
+
+.grid-container-2 { 
+    background-color: #fcccba;
+}
+
+.artist-picture {
+    background-image: url("./images/britney.png");
+    background-size:cover;
+    background-color: #CFCFCF;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.artist-name {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #ff6127;
+}
+
+.song {
+    background-color:#ff6127;
+    color: #fcccba;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.nowplayingbackground {
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 10% 20% 40% 30%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 67px;
+    background-color: #FFAE91;
+}
+.nowplayingimg {
+    background-color: #D9D9D9;
+    height: 67px;
+}
+
+.imgfit {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.song-artist-name {
+    color: white;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.songnametext {
+    font-size: 24px;
+}
+
+.artistnametext {
+    display: flex;
+    font-size: 18px;
+}
+
+.bar1 {
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 26.24px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.bar2 {
+    display: relative;
+    width: 364px;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    background: #CFCFCF;
+    border-radius: 20px 0px 0px 20px;
+}
+.buttons_footer{
+    display: flex;
+    color: white;
+    background-color: coral;
+    border-radius: 20px;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#previous{
+    margin: 15px;
+    width: 70;
+    padding-right: 10px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.play-skip {
+    display: flex;
+}
+
+#play{
+    margin: 15px;
+    width: 50;
+    bottom: 0px;
+    padding-left: 10px;
+}
+.triangle-right2{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 15px solid transparent;
+    margin: 5px;
+}
+#next{
+    margin: 15px;
+
+    width: 50;
+    padding-left: 10px;
+}
+.triangle-right3{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 10px solid transparent;
+}
